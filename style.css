@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "", sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   color: #fff;
   background: #05445e;
@@ -22,10 +22,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 
 .navcontainer {
   width: 70%;
+  margin: 10px;
+  padding: 10px;
 }
 
 button {
@@ -67,13 +70,15 @@ input {
   outline: none;
   background: transparent;
   padding: 10px;
+  font-size: 24px;
   color: #000;
 }
 .description {
   color: #fff;
   padding: 10px;
   align-items: center;
-  width: 100%;
+  text-align: center;
+  width: 30%;
   max-width: 1400px;
   margin: 100px auto 20px;
   padding: 40px 40px 40px;
