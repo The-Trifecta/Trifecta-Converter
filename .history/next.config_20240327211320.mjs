@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 
 const isProd = process.env.NODE_ENV === "production";
-const nextConfig = {
+
+module.exports = {
     assetPrefix: isProd ? "https://github.com/The-Trifecta/Trifecta-Converter/" : "",
-    output: "export"
-};
+    output: "export",
+}
 
 export default nextConfig;

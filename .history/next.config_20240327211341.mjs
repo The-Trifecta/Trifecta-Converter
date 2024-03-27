@@ -3,7 +3,7 @@
 const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
     assetPrefix: isProd ? "https://github.com/The-Trifecta/Trifecta-Converter/" : "",
-    output: "export"
+    output: "export",
 };
 
 export default nextConfig;
