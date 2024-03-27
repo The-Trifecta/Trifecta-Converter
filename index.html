@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.querySelector('.container');
+
+  container.addEventListener('mousemove', function(e) {
+    const x = e.clientX - this.offsetLeft; // Get the x coordinate within the element
+    const y = e.clientY - this.offsetTop; // Get the y coordinate within the element
+    const xPercent = x / this.offsetWidth * 100;
+    const yPercent = y / this.offsetHeight * 100;
+
+    // Update the background gradient based on mouse position
+    this.style.background = `linear-gradient(135deg, #AD2E24 ${xPercent}%, #81171B ${yPercent}%)`;
+  });
+});
+    </script>
     <div class="navbar">
       <div class="navcontainer">
         <h1>Trifecta YT Converter</h1>
