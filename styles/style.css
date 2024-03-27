@@ -8,22 +8,24 @@
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   color: #fff;
-  background: #05445e;
+  background: #252525;
   letter-spacing: 1px;
 }
 .container {
   width: 100%;
-  background: linear-gradient(135deg, #189ab4, #22daff);
+  background: linear-gradient(135deg, #AD2E24, #81171B);
   /* background: #189ab4; */
   padding: 10px;
+  
 }
 
 .navbar {
   height: 70px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
 }
 
 .navcontainer {
@@ -36,11 +38,23 @@ button {
   border: none;
   outline: none;
   padding: 16px 50px;
-  background: #189ab4;
+  background: linear-gradient(135deg, #AD2E24, #81171B);
   color: #fff;
   font-size: 16px;
   cursor: pointer;
   border-radius: 40px;
+  margin-right: 10px;
+}
+select {
+  border: none;
+  outline: none;
+  padding: 16px 50px; /* Adjusted to match the button */
+  background: linear-gradient(135deg, #AD2E24, #81171B); /* Adjusted to match the button */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: all 0.3s ease-in-out;
 }
 .YTdownload {
   width: 100%;
@@ -49,21 +63,24 @@ button {
   margin: 100px auto 20px;
   padding: 40px 30px 60px;
   border-radius: 10px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
 }
 .YTdownload h2 {
   color: #ffffff;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
 }
 .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #edeef0;
+  background: #fff;
   border-radius: 30px;
   padding-left: 20px;
   margin-bottom: 25px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
 }
 input {
   flex: 1;
@@ -84,4 +101,5 @@ input {
   margin: 100px auto 20px;
   padding: 40px 40px 40px;
   border-radius: 10px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
 }
